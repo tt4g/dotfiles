@@ -15,6 +15,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes', { 'on': 'AirlineTheme dark' }
 let g:airline_powerline_fonts = 1
 
+" tpope/vim-repeat
+Plug 'https://github.com/tpope/vim-repeat'
+
 " vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
