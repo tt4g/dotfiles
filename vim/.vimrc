@@ -17,6 +17,9 @@ Plug 'https://github.com/airblade/vim-gitgutter'
 " nerdtree
 Plug 'preservim/nerdtree'
 
+" nerdtree-git-plugin
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
 call plug#end()
 
 " vim-plug
