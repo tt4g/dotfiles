@@ -63,6 +63,7 @@ set showcmd
 
 " statusline
 set statusline=%F%m%r%h%w%y%<%=[ENC=%{&fenc!=''?&fenc:&enc}][CHAR=%02B][%l:%c]
+set laststatus=2
 
 " 見た目系
 " 行番号を表示
@@ -79,8 +80,6 @@ set smartindent
 set visualbell
 " 括弧入力時の対応する括弧を表示
 set showmatch
-" ステータスラインを常に表示
-set laststatus=2
 " コマンドラインの補完
 set wildmode=list:longest
 
