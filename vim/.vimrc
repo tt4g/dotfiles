@@ -14,6 +14,9 @@ Plug 'https://github.com/tpope/vim-fugitive'
 " vim-gitgutter
 Plug 'https://github.com/airblade/vim-gitgutter'
 
+" nerdtree
+Plug 'preservim/nerdtree'
+
 call plug#end()
 
 " vim-plug
