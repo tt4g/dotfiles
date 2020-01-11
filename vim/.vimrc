@@ -11,6 +11,9 @@ call plug#begin('~/.vim/plugged')
 " vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
+" vim-gitgutter
+Plug 'https://github.com/airblade/vim-gitgutter'
+
 call plug#end()
 
 " vim-plug
