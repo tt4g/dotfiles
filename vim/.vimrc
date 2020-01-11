@@ -43,7 +43,13 @@ call plug#end()
 " vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" setting
+syntax enable
+set autoindent
+set smartindent
+
+set backspace=indent,eol,start
+set ruler
+
 " 文字コードをUFT-8に設定
 set fileencoding=utf-8
 " vim内部文字エンコーディング
@@ -74,8 +80,6 @@ set cursorline
 set cursorcolumn
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
-" インデントはスマートインデント
-set smartindent
 " ビープ音を可視化
 set visualbell
 " 括弧入力時の対応する括弧を表示
