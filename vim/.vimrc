@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+" vim-airline
+Plug 'vim-airline/vim-airline'
+
 " vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
