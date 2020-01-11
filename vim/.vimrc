@@ -1,3 +1,8 @@
+if has('win32') || has('win64')
+    set runtimepath^=~/.vim
+    set runtimepath+=~/.vim/after
+endif
+
 " setting
 " 文字コードをUFT-8に設定
 set fileencoding=utf-8
