@@ -7,6 +7,10 @@ endif
 " vim-plug: https://github.com/junegunn/vim-plug
 
 call plug#begin('~/.vim/plugged')
+
+" vim-fugitive
+Plug 'https://github.com/tpope/vim-fugitive'
+
 call plug#end()
 
 " vim-plug
