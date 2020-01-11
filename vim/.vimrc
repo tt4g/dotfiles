@@ -18,6 +18,9 @@ let g:airline_powerline_fonts = 1
 " tpope/vim-repeat
 Plug 'https://github.com/tpope/vim-repeat'
 
+" tpope/vim-commentary
+Plug 'https://github.com/tpope/vim-commentary'
+
 " vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
