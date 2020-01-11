@@ -30,7 +30,6 @@ Plug 'https://github.com/airblade/vim-gitgutter'
 " nerdtree
 Plug 'preservim/nerdtree'
 let NERDTreeShowHidden=1
-autocmd vimenter * NERDTree
 
 " nerdtree-git-plugin
 Plug 'Xuyuanp/nerdtree-git-plugin'
