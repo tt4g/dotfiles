@@ -11,6 +11,10 @@ call plug#begin('~/.vim/plugged')
 " vim-airline
 Plug 'vim-airline/vim-airline'
 
+" vim-airline-themes
+Plug 'vim-airline/vim-airline-themes', { 'on': 'AirlineTheme dark' }
+let g:airline_powerline_fonts = 1
+
 " vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
