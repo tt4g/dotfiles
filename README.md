@@ -35,3 +35,10 @@ Remove symbolic link dot files.
 ````cmd
 unlink_dotfiles.bat
 ````
+
+### Vim
+
+#### Plugin Manager
+
+Install [vim-plug](https://github.com/junegunn/vim-plug) and run `PlugInstall`.
+

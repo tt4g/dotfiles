@@ -3,6 +3,15 @@ if has('win32') || has('win64')
     set runtimepath+=~/.vim/after
 endif
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-plug: https://github.com/junegunn/vim-plug
+
+call plug#begin('~/.vim/plugged')
+call plug#end()
+
+" vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " setting
 " 文字コードをUFT-8に設定
 set fileencoding=utf-8
