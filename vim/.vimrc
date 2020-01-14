@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 if has('win32') || has('win64')
     set runtimepath^=~/.vim
     set runtimepath+=~/.vim/after
