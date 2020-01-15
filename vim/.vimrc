@@ -42,6 +42,9 @@ Plug 'ryanoasis/vim-devicons'
 " w0ng/vim-hybrid
 Plug 'https://github.com/w0ng/vim-hybrid'
 
+" dracula/vim
+Plug 'https://github.com/dracula/vim', { 'as': 'dracula' }
+
 call plug#end()
 
 " vim-plug
@@ -49,7 +52,7 @@ call plug#end()
 
 syntax enable
 set background=dark
-colorscheme hybrid
+colorscheme dracula
 
 set autoindent
 set smartindent
