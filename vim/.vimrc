@@ -39,14 +39,17 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " vim-devicons
 Plug 'ryanoasis/vim-devicons'
 
+" w0ng/vim-hybrid
+Plug 'https://github.com/w0ng/vim-hybrid'
+
 call plug#end()
 
 " vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 syntax enable
-colorscheme desert
 set background=dark
+colorscheme hybrid
 
 set autoindent
 set smartindent
