@@ -52,7 +52,9 @@ call plug#end()
 
 syntax enable
 set background=dark
-colorscheme dracula
+autocmd BufEnter * colorscheme dracula
+autocmd BufEnter *.bat colorscheme hybrid
+autocmd BufEnter *.sh colorscheme hybrid
 
 set autoindent
 set smartindent
