@@ -45,6 +45,9 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 syntax enable
+colorscheme desert
+set background=dark
+
 set autoindent
 set smartindent
 
