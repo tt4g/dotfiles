@@ -48,6 +48,9 @@ Plug 'https://github.com/dracula/vim', { 'as': 'dracula' }
 " joshdick/onedark.vim
 Plug 'https://github.com/joshdick/onedark.vim'
 
+" haishanh/night-owl
+Plug 'haishanh/night-owl.vim'
+
 call plug#end()
 
 " vim-plug
@@ -71,6 +74,10 @@ autocmd BufEnter *.gvimrc colorscheme onedark
 autocmd BufEnter *.vimrc colorscheme onedark
 autocmd BufEnter *.bat colorscheme hybrid
 autocmd BufEnter *.sh colorscheme hybrid
+autocmd BufEnter *.js colorscheme night-owl
+autocmd BufEnter *.jsx colorscheme night-owl
+autocmd BufEnter *.ts colorscheme night-owl
+autocmd BufEnter *.tsx colorscheme night-owl
 
 set autoindent
 set smartindent
