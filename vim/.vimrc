@@ -53,6 +53,17 @@ call plug#end()
 " vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Enable True Color: https://github.com/joshdick/onedark.vim
+if (empty($TMUX))
+  if (has("nvim"))
+    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+  endif
+
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
 syntax enable
 set background=dark
 autocmd BufEnter * colorscheme dracula
