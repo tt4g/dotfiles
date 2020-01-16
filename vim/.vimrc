@@ -45,6 +45,9 @@ Plug 'https://github.com/w0ng/vim-hybrid'
 " dracula/vim
 Plug 'https://github.com/dracula/vim', { 'as': 'dracula' }
 
+" joshdick/onedark.vim
+Plug 'https://github.com/joshdick/onedark.vim'
+
 call plug#end()
 
 " vim-plug
@@ -53,6 +56,8 @@ call plug#end()
 syntax enable
 set background=dark
 autocmd BufEnter * colorscheme dracula
+autocmd BufEnter *.gvimrc colorscheme onedark
+autocmd BufEnter *.vimrc colorscheme onedark
 autocmd BufEnter *.bat colorscheme hybrid
 autocmd BufEnter *.sh colorscheme hybrid
 
