@@ -56,15 +56,20 @@ call plug#end()
 " vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Enable True Color: https://github.com/joshdick/onedark.vim
-if (empty($TMUX))
-  if (has("nvim"))
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+" Older Cygwin does not support True Color (256 colors).
+if &term !=# 'cygwin'
+
+  " Enable True Color: https://github.com/joshdick/onedark.vim
+  if (empty($TMUX))
+    if (has("nvim"))
+      let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+    endif
+
+    if (has("termguicolors"))
+      set termguicolors
+    endif
   endif
 
-  if (has("termguicolors"))
-    set termguicolors
-  endif
 endif
 
 syntax enable
