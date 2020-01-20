@@ -17,6 +17,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes', { 'on': 'AirlineTheme dark' }
 let g:airline_powerline_fonts = 1
 
+" editorconfig/editorconfig-vim
+Plug 'https://github.com/editorconfig/editorconfig-vim'
+" Avoid error when using tpope/vim-fugitive: https://github.com/editorconfig/editorconfig-vim/issues/28
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
 " tpope/vim-repeat
 Plug 'https://github.com/tpope/vim-repeat'
 
