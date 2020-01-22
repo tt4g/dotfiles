@@ -30,6 +30,10 @@ Plug 'preservim/nerdtree'
 let NERDTreeShowHidden=1
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+if (has('patch-8.1.2114'))
+  Plug 'liuchengxu/vim-clap'
+endif
+
 Plug 'ryanoasis/vim-devicons'
 
 " thems
