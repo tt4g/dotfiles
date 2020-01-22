@@ -10,50 +10,36 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" vim-airline
 Plug 'vim-airline/vim-airline'
-
-" vim-airline-themes
 Plug 'vim-airline/vim-airline-themes', { 'on': 'AirlineTheme dark' }
 let g:airline_powerline_fonts = 1
 
-" editorconfig/editorconfig-vim
 Plug 'https://github.com/editorconfig/editorconfig-vim'
 " Avoid error when using tpope/vim-fugitive: https://github.com/editorconfig/editorconfig-vim/issues/28
 let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
-" tpope/vim-repeat
 Plug 'https://github.com/tpope/vim-repeat'
 
-" tpope/vim-commentary
 Plug 'https://github.com/tpope/vim-commentary'
 
-" vim-fugitive
 Plug 'https://github.com/tpope/vim-fugitive'
 
-" vim-gitgutter
 Plug 'https://github.com/airblade/vim-gitgutter'
 
-" nerdtree
 Plug 'preservim/nerdtree'
 let NERDTreeShowHidden=1
-
-" nerdtree-git-plugin
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" vim-devicons
 Plug 'ryanoasis/vim-devicons'
 
-" w0ng/vim-hybrid
+" thems
+
 Plug 'https://github.com/w0ng/vim-hybrid'
 
-" dracula/vim
 Plug 'https://github.com/dracula/vim', { 'as': 'dracula' }
 
-" joshdick/onedark.vim
 Plug 'https://github.com/joshdick/onedark.vim'
 
-" haishanh/night-owl
 Plug 'haishanh/night-owl.vim'
 
 call plug#end()
