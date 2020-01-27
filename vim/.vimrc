@@ -20,8 +20,6 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
 Plug 'https://github.com/tpope/vim-repeat'
 
-Plug 'https://github.com/tpope/vim-commentary'
-
 Plug 'https://github.com/tpope/vim-fugitive'
 
 Plug 'https://github.com/airblade/vim-gitgutter'
