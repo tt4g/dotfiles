@@ -28,6 +28,14 @@ Plug 'preservim/nerdtree'
 let NERDTreeShowHidden=1
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+Plug 'preservim/nerdcommenter'
+let g:NERDSpaceDelims = 1
+let g:NERDCompactSexyComs = 0
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDToggleCheckAllLines = 1
+
 if (has('patch-8.1.2114'))
   Plug 'liuchengxu/vim-clap'
 endif
