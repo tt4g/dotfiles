@@ -83,7 +83,17 @@ set autoindent
 set smartindent
 
 set backspace=indent,eol,start
+set colorcolumn=80,120
 set ruler
+
+" Show non-printable characters.
+set list
+set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
+autocmd VimEnter,WinEnter * highlight SpecialKey term=bold ctermbg=9 guibg=LightRed
+
+set number
+set nocursorline
+set nocursorcolumn
 
 " 文字コードをUFT-8に設定
 set fileencoding=utf-8
@@ -107,12 +117,6 @@ set statusline=%F%m%r%h%w%y%<%=[ENC=%{&fenc!=''?&fenc:&enc}][CHAR=%02B][%l:%c]
 set laststatus=2
 
 " 見た目系
-" 行番号を表示
-set number
-" 現在の行を強調表示
-set cursorline
-" 現在の行を強調表示（縦）
-set cursorcolumn
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
 " ビープ音を可視化
