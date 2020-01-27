@@ -25,7 +25,7 @@ Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'https://github.com/airblade/vim-gitgutter'
 
 Plug 'preservim/nerdtree'
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden = 1
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'preservim/nerdcommenter'
@@ -63,7 +63,7 @@ if &term !=# 'cygwin'
   " Enable True Color: https://github.com/joshdick/onedark.vim
   if (empty($TMUX))
     if (has("nvim"))
-      let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+      let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
     endif
 
     if (has("termguicolors"))
