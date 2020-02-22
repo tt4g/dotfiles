@@ -103,6 +103,9 @@ set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 autocmd VimEnter,WinEnter * highlight SpecialKey term=bold ctermbg=9 guibg=LightRed
 
+syn match myTodo contained "\<\(TODO\|FIXME\|NOTE\|WARNING\|QUESTION\|DEBUG\|HACK\|XXX\):\?"
+highlight def link myTodo Todo
+
 set number
 set nocursorline
 set nocursorcolumn
