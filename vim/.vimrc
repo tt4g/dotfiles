@@ -18,6 +18,10 @@ Plug 'https://github.com/editorconfig/editorconfig-vim'
 " Avoid error when using tpope/vim-fugitive: https://github.com/editorconfig/editorconfig-vim/issues/28
 let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
+Plug 'ntpeters/vim-better-whitespace'
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
+
 Plug 'https://github.com/tpope/vim-repeat'
 
 Plug 'https://github.com/tpope/vim-fugitive'
