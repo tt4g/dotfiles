@@ -40,6 +40,8 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
+Plug 'jlanzarotta/bufexplorer'
+
 if (has('patch-8.1.2114'))
   Plug 'liuchengxu/vim-clap'
 endif
