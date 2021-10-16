@@ -69,6 +69,8 @@ Plug 'osyo-manga/vim-brightest', { 'on': 'BrightestEnable' }
 let g:brightest#highlight = { 'group' : 'BrightestUnderline' }
 let g:brightest#pattern = '\k\+'
 
+Plug 'kshenoy/vim-signature'
+
 " thems
 
 Plug 'https://github.com/w0ng/vim-hybrid'
