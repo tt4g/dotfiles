@@ -65,6 +65,10 @@ nmap <Space>j <Plug>(quickhl-cword-toggle)
 nmap <Space>] <Plug>(quickhl-tag-toggle)
 map H <Plug>(operator-quickhl-manual-this-motion)
 
+Plug 'osyo-manga/vim-brightest', { 'on': 'BrightestEnable' }
+let g:brightest#highlight = { 'group' : 'BrightestUnderline' }
+let g:brightest#pattern = '\k\+'
+
 " thems
 
 Plug 'https://github.com/w0ng/vim-hybrid'
