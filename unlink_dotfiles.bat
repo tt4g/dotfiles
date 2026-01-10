@@ -7,6 +7,9 @@ call :DeleteFileIfSymlink %USERPROFILE%"\.vimrc"
 REM gvim
 call :DeleteFileIfSymlink %USERPROFILE%"\.gvimrc"
 
+REM .config
+call :DeleteFileIfSymlink %USERPROFILE%"\.config"
+
 endlocal
 exit /b
 

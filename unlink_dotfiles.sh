@@ -47,3 +47,6 @@ delete_file_if_symlink__ ~/.vimrc
 
 # gvim
 delete_file_if_symlink__ ~/.gvimrc
+
+# .config
+delete_file_if_symlink__ ~/.config

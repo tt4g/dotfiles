@@ -21,3 +21,6 @@ create_symlink__ ${_DIR_}/vim/.vimrc ~/.vimrc
 
 # gvim
 create_symlink__ ${_DIR_}/vim/.vimrc ~/.gvimrc
+
+# .config
+create_symlink__ ${_DIR_}/.config ~/.config

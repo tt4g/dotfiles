@@ -5,6 +5,9 @@ REM vim
 call :CreateFileSymlink %~dp0"\vim\.vimrc" %USERPROFILE%"\.vimrc"
 call :CreateFileSymlink %~dp0"\vim\.gvimrc" %USERPROFILE%"\.gvimrc"
 
+REM .config
+call :CreateFileSymlink %~dp0"\.config" %USERPROFILE%"\.config"
+
 endlocal
 exit /b
 
@@ -41,4 +44,3 @@ mklink /D "%2" "%1"
 
 endlocal
 exit /b
-
