@@ -36,6 +36,17 @@ Remove symbolic link dot files.
 unlink_dotfiles.bat
 ````
 
+### mise
+
+Install [mise](https://mise.jdx.dev/) and run:
+
+```shell
+$ mise install
+$ mise prune
+```
+
+See also: https://github.com/jdx/mise
+
 ### Vim
 
 #### Plugin Manager
