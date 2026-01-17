@@ -1,44 +1,36 @@
-# introduction
+# Setup
 
-My dotfiles.
+## [chezmoi](https://www.chezmoi.io/)
 
-## Install
+> [!tip]
+> If `chezmoi` is not installed, install it with `mise use --global chezmoi`.
 
-Create symbolic link dot files to user directory.
+### Customize
 
-* UNIX system
+Create your configuration file `~.config/chezmoi/chezmoi.toml` by copying the
+example [`chezmoi.config.example.toml`](chezmoi.config.example.toml).
 
-````sh
-./link_dotfiles
-````
+See also:
 
-* Windows OS
+* [\.chezmoidata/ - chezmoi](https://www.chezmoi.io/reference/special-directories/chezmoidata/)
+  * GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/reference/special-directories/chezmoidata.md
 
-Should **Run Adoministrator mode**.
+### Apply dotfiles
 
-````cmd
-link_dotfiles.bat
-````
+```shell
+# Check diff
+$ chezmoi diff
 
-## Uninstall
+# Dry run
+$ chezmoi apply --dry-run --verbose
 
-Remove symbolic link dot files.
+# Apply dotfiles
+$ chezmoi apply
+```
 
-* UNIX system
+## [mise](https://mise.jdx.dev/)
 
-````sh
-./unlink_dotfiles
-````
-
-* Windows OS
-
-````cmd
-unlink_dotfiles.bat
-````
-
-### mise
-
-Install [mise](https://mise.jdx.dev/) and run:
+Install `mise and run:
 
 ```shell
 $ mise install
@@ -46,6 +38,8 @@ $ mise prune
 ```
 
 See also: https://github.com/jdx/mise
+
+## Other setups
 
 ### Vim
 

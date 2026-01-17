@@ -1,0 +1,11 @@
+# chezmoi Configuration.
+# See: https://www.chezmoi.io/reference/configuration-file/
+# GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/reference/configuration-file/index.md
+
+# Change chezmoi sourceDir.
+# You can specify the path to the directory checked out this repository.
+#
+# Example:
+#   * UNIX Like: `sourceDir = "/home/me/.dotfiles"`
+#   * Windows: `sourceDir = "C:/Users/me/.dotfiles"`
+sourceDir = ""
