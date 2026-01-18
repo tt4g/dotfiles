@@ -5,6 +5,15 @@
 > [!tip]
 > If `chezmoi` is not installed, install it with `mise use --global chezmoi`.
 
+Use `chezmoi` to manage dotfiles in [`chezmoi/`](./chezmoi/) directory.
+
+See also:
+
+* [Customize your source directory - chezmoi](https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/)
+  * GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/user-guide/advanced/customize-your-source-directory.md
+* [.chezmoiroot - chezmoi](https://www.chezmoi.io/reference/special-files/chezmoiroot/)
+  * GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/reference/special-files/chezmoiroot.md
+
 ### Customize
 
 Create your configuration file `~/.config/chezmoi/chezmoi.toml` by copying the

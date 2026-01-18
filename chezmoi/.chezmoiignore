@@ -1,11 +1,3 @@
 # chezmoi ignore file list.
 # See: https://www.chezmoi.io/reference/special-files/chezmoiignore/
 # GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/reference/special-files/chezmoiignore.md
-
-.history
-.editorconfig
-.gitignore
-LICENSE
-README.md
-
-chezmoi.config.example.toml
