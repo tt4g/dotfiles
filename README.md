@@ -7,13 +7,8 @@
 
 ### Customize
 
-Create your configuration file `~.config/chezmoi/chezmoi.toml` by copying the
+Create your configuration file `~/.config/chezmoi/chezmoi.toml` by copying the
 example [`chezmoi.config.example.toml`](chezmoi.config.example.toml).
-
-See also:
-
-* [\.chezmoidata/ - chezmoi](https://www.chezmoi.io/reference/special-directories/chezmoidata/)
-  * GitHub: https://github.com/twpayne/chezmoi/blob/v2.69.3/assets/chezmoi.io/docs/reference/special-directories/chezmoidata.md
 
 ### Apply dotfiles
 
@@ -46,4 +41,3 @@ See also: https://github.com/jdx/mise
 #### Plugin Manager
 
 Install [vim-plug](https://github.com/junegunn/vim-plug) and run `PlugInstall`.
-
