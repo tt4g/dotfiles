@@ -1,4 +1,4 @@
 [tools]
 node = "24.13.0"
-cmake = "4.2.1"
+cmake = "4.2.3"
 chezmoi = "2.69.3"
